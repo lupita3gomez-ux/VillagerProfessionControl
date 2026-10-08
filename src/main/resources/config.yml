@@ -1,0 +1,26 @@
+# Profesiones que los aldeanos pueden tener.
+# Puedes agregar o quitar las que quieras.
+#
+# FARMER       = Granjero
+# LIBRARIAN    = Bibliotecario
+# FLETCHER     = Flechero
+# ARMORER      = Armero
+# WEAPONSMITH  = Herrero de armas
+# TOOLSMITH    = Herrero de herramientas
+# CLERIC       = Clérigo
+# BUTCHER      = Carnicero
+# FISHERMAN    = Pescador
+# SHEPHERD     = Pastor
+# LEATHERWORKER= Peletero
+# CARTOGRAPHER = Cartógrafo
+# MASON        = Albañil
+# NONE         = Sin profesión
+# NITWIT       = Simplón (aldeano verde)
+
+allowed-professions:
+  - FARMER
+
+default-profession: FARMER
+
+enforce-existing: true
+check-on-chunk-load: true

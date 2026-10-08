@@ -1,0 +1,6 @@
+name: VillagerProfessionControl
+version: 1.0.0
+main: mx.netherhost.villagerprofessioncontrol.VillagerProfessionControl
+api-version: '1.21'
+author: NetherHost Server
+description: Controla las profesiones permitidas de los aldeanos vanilla mediante config.yml.
